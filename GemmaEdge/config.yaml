@@ -8,6 +8,8 @@
 # --- VECTOR ENGINE (MiniLM) ---
 engine:
   # Absolute path to MiniLM model files on local drive
+  # ⚠️ UPDATE THIS: Replace with your own local MiniLM snapshot path
+  # Download from: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
   model_path: "F:/HuggingFaceModels/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf"
   device: "cpu"
   # System remains 100% offline
@@ -34,12 +36,16 @@ personalities:
 
 model_storage:
   # Root path for Modelfiles and GGUF sources
+  # ⚠️ UPDATE THIS: Replace with your own project path (e.g., "C:/YourPath/GemmaEdge/engineModels")
+  # This path must point to the folder where your Modelfiles live
+  # Without this path the engine cannot find or compile the modules
   root_path: "F:/GemmaEdge/engineModels"
   base_gguf: "gemma-4-E2B-it-Q4_K_M.gguf"
 
 # --- HARDWARE CONTROL ---
 hardware:
   # GTX 1050 Ti VRAM limit (GB)
+  # ⚠️ UPDATE THIS: Change to match your GPU VRAM
   gpu_vram_limit: 4.0
   # 0 = Cold-swap (Purges VRAM immediately after use)
   # -1 = Keep alive (Holds model in memory)
