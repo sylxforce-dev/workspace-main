@@ -2,9 +2,8 @@
 
 **Project:** GemmaEdge (Local AI Reasoning Engine)  
 **Hardware Target:** NVIDIA GPU Only (GTX 1050 Ti 4GB Optimized)  
-**Environment Target:** Windows Optimized Deployment Matrix  
+**Environment Target:** Windows Native Architecture Only (Requires Win DLL Paths)  
 **Base Logic:** Reasoning over Reflex™
-
 ---
 
 ## 0. ENVIRONMENT SETUP (The Isolated Base)
