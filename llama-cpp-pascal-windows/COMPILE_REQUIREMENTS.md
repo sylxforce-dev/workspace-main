@@ -1,4 +1,4 @@
-# GemmaEdge V2 — Compile Requirements
+# llama.cpp Pascal CUDA — Windows Compile Requirements
 
 ## Hardware
 - NVIDIA GTX 1050 Ti (Pascal, compute capability 6.1)
