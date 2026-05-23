@@ -1,5 +1,5 @@
-# GemmaEdge V2 — Pascal CUDA Compile Guide
-## The "No One Talks About This" Setup for llama.cpp on Legacy NVIDIA Hardware
+# llama.cpp Pascal CUDA — Windows Compile Guide
+## The "No One Talks About This" Setup for Legacy NVIDIA Hardware
 
 ---
 
